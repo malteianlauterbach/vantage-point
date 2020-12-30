@@ -20,17 +20,6 @@ function MyApp({ Component, pageProps }) {
   console.log(pageProps);
   return (
     <ChakraProvider theme={theme}>
-      <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-          <Box position="fixed" bottom="90px" width="
-        </Box>
-        <Box
-          width={["100vw", "calc(95vw)", "calc(95vw)"]}
-          paddingLeft={["10px", "250px", "250px"]}
-          paddingRight={["10px", "0px", "0px"]}
-          paddingBottom={["10px", "10px"]}
-          paddingTop={["30px", "70px", "70px"]}
-        >	
-      </Grid>
     </ChakraProvider>
   );
 }
