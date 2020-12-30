@@ -1,10 +1,10 @@
 ---
-title:  'Attack at the Yemen Airport kills Fiveteen'
+title:  'Attack at the Yemen Aiport kills Fiveteen'
 author: 'Malte Ian Lauterbach'
-image: 'https://cloud-760y72uhh.vercel.app/0image_from_ios.jpg'
+image: 'https://cloud-pxiku74is.vercel.app/0image_from_ios.jpg'
 date: '2020/07/12'
-issue: '1.0'
-featured: true
+issue: '1.1'
+featured: false
 ---
 Yemen: The Houthi insurgency in Yemen strikes another bloody toll today-with approximately 15 killed and more injured. Here's what we know:
 
