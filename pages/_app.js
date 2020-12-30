@@ -21,24 +21,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-          <Box position="fixed" bottom="90px" width="100%">
-            <Navigation
-              onSelect={({ itemId }) => {
-                router.push(itemId);
-              }}
-              items={[
-                {
-                  title: "Home",
-                  itemId: "/",
-                  // you can use your own custom Icon component as well
-                  // icon is optional
-                },
-                {
-                  title: "About us",
-                  itemId: "/about",
-                },
-              ]}
-            />
+          <Box position="fixed" bottom="90px" width="
         </Box>
         <Box
           width={["100vw", "calc(95vw)", "calc(95vw)"]}
@@ -46,20 +29,7 @@ function MyApp({ Component, pageProps }) {
           paddingRight={["10px", "0px", "0px"]}
           paddingBottom={["10px", "10px"]}
           paddingTop={["30px", "70px", "70px"]}
-        >
-          <Link href="/">
-            <Heading pb="3" display={["block", "none", "none"]} textAlign="center">
-              Custos Vera
-            </Heading>
-          </Link>
-          <Link href="/about">
-              <Text pb="4" display={["block", "none", "none"]} textAlign="center" fontWeight="bold">
-                About us
-              </Text>
-          </Link>
-          <Component {...pageProps} />
-          <hr style={{ marginTop: "20px", paddingBottom: "10px" }} />
-	        </Box>
+        >	
       </Grid>
     </ChakraProvider>
   );
