@@ -1,5 +1,5 @@
 ---
-title:  'Explosion, probably attack,  at Aden Intern. Airport Yemen kills approx. 15'
+title:  'Attack at the Yemen Airport kills Fiveteen'
 author: 'Malte Ian Lauterbach'
 image: 'https://cloud-760y72uhh.vercel.app/0image_from_ios.jpg'
 date: '2020/07/12'
